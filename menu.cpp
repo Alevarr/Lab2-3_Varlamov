@@ -26,7 +26,7 @@ void clean(Stack<int>* stack1, Stack<double>* stack2, Stack<Complex>* stack3, St
   if(stack3) { delete stack3; }
   if(stack4) { delete stack4; }
   if(stack5) { delete stack5; }
-  if(stack6) { delete [] stack6; }
+  if(stack6) { delete stack6; }
 
 }
 
